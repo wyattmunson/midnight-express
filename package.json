@@ -1,0 +1,20 @@
+{
+  "name": "midnight-express",
+  "version": "1.0.0",
+  "description": "A sample Express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "jest",
+    "build": "docker build -t midnight-express:latest ."
+  },
+  "author": "wyatt.munson@harness.io",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
